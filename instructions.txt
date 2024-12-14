@@ -1,0 +1,3 @@
+CRIAÇÃO DO PROJETO
+Usando Vite com template typescript -> npm create vite@latest projeto-react-calc-imc -- -- template typescript
+

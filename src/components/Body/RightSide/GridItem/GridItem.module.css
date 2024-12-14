@@ -1,0 +1,48 @@
+.main {
+    flex: 1;
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    /* cursor: pointer; */
+    /* transition: all ease .3s; */
+}
+
+/* .main:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+} */
+
+.main .gridIcon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, .1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .gridTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    transition: all ease 0.3s;
+}
+
+/* .main:hover .gridTitle {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+} */
+
+.main .gridInfo {
+    font-size: 12px;
+    margin-top: 14px;
+}
+
+.main .yourImc {
+    font-size: 17px;
+    margin: 10px 0 50px;
+}
